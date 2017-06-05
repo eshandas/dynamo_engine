@@ -1,4 +1,4 @@
-from .base.fields import (
+from base.fields import (
     BaseField,
     STRING,
 )

@@ -3,7 +3,7 @@ import boto3
 
 from django.conf import settings
 
-from .base.exceptions import DoesNotExist
+from base.exceptions import DoesNotExist
 from fields import AVAILABLE_FIELDS, AVAILABLE_KEY_FIELDS
 
 
