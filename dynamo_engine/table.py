@@ -10,7 +10,7 @@ from fields import AVAILABLE_FIELDS, AVAILABLE_KEY_FIELDS
 # Get the service resource.
 dynamodb = boto3.resource(
     'dynamodb',
-    region_name='us-west-2',
+    region_name=settings.AWS_REGION_NAME,
     aws_access_key_id=settings.AWS_ACCESS_KEY_ID,
     aws_secret_access_key=settings.AWS_SECRET_ACCESS_KEY)
 
